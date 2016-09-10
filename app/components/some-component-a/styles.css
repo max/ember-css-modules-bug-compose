@@ -1,0 +1,7 @@
+.component {
+  background: red;
+}
+
+.foo::before {
+  content: 'BEFORE: ';  
+}

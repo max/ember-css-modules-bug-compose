@@ -1,0 +1,7 @@
+.component {
+  background: blue;
+}
+
+.bar {
+  composes: foo from 'css-modules-bugs/components/some-component-a/styles';
+}
